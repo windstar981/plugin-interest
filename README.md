@@ -4,17 +4,17 @@
 
 ``git submodule add https://github.com/windstar981/plugin-interest``
 
-Thêm vào repositories của project chính(thay đổi index 0 cho phù hợp)
+Thêm vào repositories của project chính(thay đổi index 0 cho phù hợp)<br>
 ``
-    "repositories": {
-            "0": {
-                "type": "path",
-                "url": "./platform/plugin-interest",
-                "options": {
-                    "symlink": true
-                }
-            }
-        }
+    "repositories": { <br>
+            "0": { <br>
+                "type": "path", <br>
+                "url": "./platform/plugin-interest", <br>
+                "options": { <br>
+                    "symlink": true <br>
+                } <br>
+            } <br>
+        } <br>
 ``
 
 ``composer require tool/plugininterest``
